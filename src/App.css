@@ -1,0 +1,111 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+
+header{
+  margin-bottom: 55px;
+  background-color:  #e48585;
+  color: azure;
+}
+
+header h1 {
+  font-size: 120px;
+  text-align: center;
+}
+
+header p{
+  font-size: 50px;
+}
+
+
+.food-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+.btn{
+  margin-bottom: 35px;
+}
+
+.btn-default {
+  background-color: #4d4545;
+  color: rgb(235, 235, 235);
+  border-radius: 25px;
+  width: 120px;
+}
+
+img{
+  border-radius: 125px;
+  width: 400px;
+  height: 250px;
+  border-style: solid;
+  border-color: #4d4545;
+}
+
+
+.FoodInfo{
+  font-size: 25px;
+}
+
+.FoodName{
+  font-weight: bold;
+  color:#4d4545;
+}
+
+.containerScroll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  margin-bottom: 50px;
+ 
+}
+
+.containerScroll h2{
+  font-size: 50px;
+  color:#131212;
+}
+.containerScroll ul{
+  text-align: center;
+}
+
+.containerScroll .btn{
+  background-color:#e48585;
+  border-radius: 10px;
+  width: 200px;
+  height:80px;
+  font-size: 25px;
+}
+
+.orders{
+  overflow: auto;
+  border:1px solid #131212;
+  width:1050px;
+  height:450px;
+  font-size: 40px;
+  border-radius: 25px;
+}
+
+.orders::-webkit-scrollbar{
+  width: 30px;
+  overflow-y: auto;
+}
+
+.orders::-webkit-scrollbar-thumb{
+  background-color: #b1b1b1;
+  border-radius: 30px;
+}
+
+.orders li{
+  margin-bottom: 35px;
+  color:#131212;
+}
+
